@@ -556,7 +556,7 @@ footer span{color:var(--g)}
           <span class="tl"><span class="to">&nbsp;&nbsp;<span class="tk">"location"</span>: <span class="tv">"Egypt 🌍"</span>,</span></span>
           <span class="tl"><span class="to">&nbsp;&nbsp;<span class="tk">"building"</span>: <span class="tv">"StudyPal — AI study app"</span>,</span></span>
           <span class="tl"><span class="to">&nbsp;&nbsp;<span class="tk">"stack"</span>: [<span class="tv">"Python"</span>,<span class="tv">"Django"</span>,<span class="tv">"JS"</span>],</span></span>
-          <span class="tl"><span class="to">&nbsp;&nbsp;<span class="tk">"interests"</span>: [<span class="tv">"coding/gaming/streaming"</span>,<span class="tv">"Minecraft/"</span>],</span></span>
+          <span class="tl"><span class="to">&nbsp;&nbsp;<span class="tk">"interests"</span>: [<span class="tv">"coding/gaming/streaming"</span>,<span class="tv">"Minecraft"</span>],</span></span>
           <span class="tl"><span class="to">&nbsp;&nbsp;<span class="tk">"motto"</span>: <span class="tv">"learn by building"</span></span></span>
           <span class="tl"><span class="to">}</span></span>
           <span class="tblank"></span>
@@ -572,7 +572,7 @@ footer span{color:var(--g)}
         not watching tutorials.
       </p>
       <p class="about-text" style="margin-bottom:1.5rem">
-        Currently working on <strong>web design </strong>to help people study
+        Currently working on <strong>Project-A </strong>Social Website
       </p>
       <div class="info-row"><span class="info-label">STATUS</span><span class="info-val green">● available</span></div>
       <!-- EDIT: your real email -->
@@ -583,7 +583,7 @@ footer span{color:var(--g)}
       <div class="skills-wrap">
         <!-- EDIT: adjust skill levels (data-pct) -->
         <div class="skill-item"><div class="skill-top"><span>Python</span><span>85%</span></div><div class="skill-bar"><div class="skill-fill" data-pct="85"></div></div></div>
-        <div class="skill-item"><div class="skill-top"><span>Django</span><span>0%</span></div><div class="skill-bar"><div class="skill-fill" data-pct="0"></div></div></div>
+        <div class="skill-item"><div class="skill-top"><span>Django</span><span>45%</span></div><div class="skill-bar"><div class="skill-fill" data-pct="45"></div></div></div>
         <div class="skill-item"><div class="skill-top"><span>HTML / CSS</span><span>80%</span></div><div class="skill-bar"><div class="skill-fill" data-pct="80"></div></div></div>
         <div class="skill-item"><div class="skill-top"><span>JavaScript</span><span>60%</span></div><div class="skill-bar"><div class="skill-fill" data-pct="60"></div></div></div>
         <div class="skill-item"><div class="skill-top"><span>Git / CLI</span><span>35%</span></div><div class="skill-bar"><div class="skill-fill" data-pct="35"></div></div></div>
@@ -630,11 +630,23 @@ footer span{color:var(--g)}
 
       <!-- EDIT: project 2 -->
 
-      <div class="proj-card" style="border-style:dashed;justify-content:center;align-items:center;min-height:160px;gap:8px" data-tags="all python web ai cli">
-        <div style="font-size:28px;color:var(--bd)">+</div>
-        <p style="font-size:11px;color:var(--txd);text-align:center;letter-spacing:.06em">more coming soon...</p>
+      <div class="proj-card" data-tags="python web ai">
+      <div class="proj-tags">
+        <span class="proj-tag" data-color="g">Python</span>
+        <span class="proj-tag" data-color="c">Django</span>
+        <span class="proj-tag" data-color="o">web</span>
       </div>
+      <div class="proj-name"><span>_</span>Project-A</div>
+      <p class="proj-desc">A website where you can talk with no issues&amp;working on it</p>
+      <div class="proj-foot">
+        <div class="proj-links">
+          <!-- EDIT: replace # with real GitHub/live URLs -->
+          <a href="#" class="plink" target="_blank">GitHub</a>
+          <a href="#" class="plink" target="_blank">Live</a>
+        </div>
+        <span class="proj-star">★ Soon</span>
       </div>
+    </div>
       <!-- EDIT: project 3 -->
     
 
@@ -943,7 +955,7 @@ function initReveal(){
 ══════════════════════════════════════ */
 function initTypewriter(){
   // EDIT: customize these lines
-  const lines=['developer · student · builder','python & django enthusiast','currently building: StudyPal','open source · open mind'];
+  const lines=['developer · student · builder','python & django learner','currently building: Project-A','open source · open mind'];
   let li=0,ci=0,del=false;
   const el=document.getElementById('tagline');
   function tick(){
@@ -997,17 +1009,17 @@ const termCmds={
   ],
   whoami:()=>[
     {t:'Satubex',c:'g'},
-    {t:'Developer · CS Student · Egypt',c:'w'},
-    {t:'Currently building: web design ( study app)',c:'d'},
+    {t:'Developer · Foe Student · Egypt',c:'w'},
+    {t:'Currently building: Project-A ( Social website)',c:'d'},
   ],
   skills:()=>[
     {t:'Languages: Python, JavaScript, HTML/CSS',c:'w'},
     {t:'Frameworks: Django',c:'w'},
-    {t:'Tools: Git, Linux CLI, SQLite, VS Code',c:'w'},
+    {t:'Tools: Git, VS Code',c:'w'},
     {t:'Learning: React, Docker, REST APIs',c:'d'},
   ],
   projects:()=>[
-    {t:'[1] web design      — app to help learn',c:'g'},
+    {t:'[1] Project-A      — Social website',c:'g'},
   ],
   // EDIT: update contact info here too
   contact:()=>[
@@ -1017,8 +1029,7 @@ const termCmds={
   ],
   social:()=>[
     {t:'GitHub:   github.com/Satubex',c:'g'},
-    {t:'LinkedIn: linkedin.com/in/Satubex',c:'w'},
-    {t:'Twitter:  @Satubex_',c:'w'},
+    {t:'Twitter:  @NotSatubex_',c:'w'},
     {t:'Discord:  Satubex_',c:'w'},
   ],
   ls:()=>[
